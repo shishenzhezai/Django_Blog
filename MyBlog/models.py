@@ -31,7 +31,7 @@ class Sys_User(models.Model):
 
 
 class Forum_Questions(models.Model):
-    ID = models.UUIDField(primary_key=True , default=uuid.uuid4() , editable=False)
+    ID = models.UUIDField(primary_key=True , default=uuid.uuid4 , editable=False)
     QuestionTitle = models.CharField(max_length=50)
     AuthorID = models.ForeignKey('MyBlog.Sys_User' , related_name="User")
     Content = models.TextField()
@@ -55,7 +55,7 @@ class Tags(models.Model):
 
 
 class Forum_Replys(models.Model):
-    ID = models.UUIDField(primary_key=True , default=uuid.uuid4() , editable=False)
+    ID = models.UUIDField(primary_key=True , default=uuid.uuid4 , editable=False)
     QuestionID = models.ForeignKey('MyBlog.Forum_Questions' , related_name='Question')
     Content = models.TextField()
     Pub_Date = models.DateTimeField(auto_now_add=True)
