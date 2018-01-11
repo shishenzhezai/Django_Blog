@@ -9,7 +9,8 @@ def detail(request, question_id):
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    template=loader.get_template('MyBlog/index.html')
+    return HttpResponse(template.render(),request)
 
 
 def querytion_list(request):
