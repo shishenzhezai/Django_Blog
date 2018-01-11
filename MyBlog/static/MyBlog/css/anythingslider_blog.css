@@ -9,19 +9,19 @@
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID & dimensions to match your slider */
-div.anythingWindow{
-	position: relative;
-	width: 1000px;
-	height: 429px;
-}
-
-ul#slider {
-	width: 1000px;
-	height: 429px;
+ul#slider1 {
+	width: 460px;
+	height: auto;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
 	overflow-x: hidden;
+}
+
+ul#slider1 li a{
+	display: block;
+	width: 460px;
+	height: auto;
 }
 
 /******************
@@ -33,7 +33,7 @@ ul#slider {
 /* Navigation buttons + start/stop button, default state */
 div.anythingControls{
 	position: absolute;
-	top: -50px;
+	top: 0px;
 	right: 0px;
 }
 
@@ -117,26 +117,27 @@ div.anythingControls ul li{
  ************************/
 /* Navigation Arrows */
 .anythingSlider-default .arrow {
-	top: 50%;
+	top: 0px;
 	position: absolute;
 	display: block;
+        
 }
 
 .anythingSlider-default .arrow a {
 	display: block;
 	width: 45px;
-	height: 56px;
+	height: 46px;
 	text-align: center;
 	outline: 0;
-	background: url(images/template/arrows.png) no-repeat;
+	background: url(../images/template/arrows.png) no-repeat;
 }
 
 /* back arrow */
-.anythingSlider-default .back { left: -100px; }
+.anythingSlider-default .back { left: 370px; }
 .anythingSlider-default .back a { background-position: left top; }
 .anythingSlider-default .back a:hover { background-position: left bottom; }
 /* forward arrow */
-.anythingSlider-default .forward { right: -100px; }
+.anythingSlider-default .forward { right: 0px; }
 .anythingSlider-default .forward a { background-position: right top; }
 .anythingSlider-default .forward a:hover { background-position: right bottom; }
 
