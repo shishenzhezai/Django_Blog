@@ -9,7 +9,7 @@ body {
 	line-height: 22px;
 	color: #767772;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	background: url('images/template/background.jpg') #dededa top center repeat-x;
+	background: url('../images/template/background.jpg') #dededa top center repeat-x;
 }
 
 body.contact,
@@ -20,7 +20,7 @@ body.portfolio_case{
 	line-height: 22px;
 	color: #767772;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;	
-	background: url('images/template/background_portfolio.png') #dededa top center repeat-x;
+	background: url('../images/template/background_portfolio.png') #dededa top center repeat-x;
 }
 
 a img{
@@ -117,7 +117,7 @@ div#header{
 	position: relative;
 	line-height: 81px;
 	height: 81px;
-	background: url('images/template/background_header.png') repeat-x;
+	background: url('../images/template/background_header.png') repeat-x;
 }
 
 div#inner_header{
@@ -148,13 +148,13 @@ div#socialmedia ul li a{
 }
 
 div#socialmedia ul li.twitter{
-	background: url('images/template/icons/icon_twitter.png') no-repeat 0 0;
+	background: url('../images/template/icons/icon_twitter.png') no-repeat 0 0;
 }
 div#socialmedia ul li.facebook{
-	background: url('images/template/icons/icon_facebook.png') no-repeat 0 0;
+	background: url('../images/template/icons/icon_facebook.png') no-repeat 0 0;
 }
 div#socialmedia ul li.googleplus{
-	background: url('images/template/icons/icon_googleplus.png') no-repeat 0 0;
+	background: url('../images/template/icons/icon_googleplus.png') no-repeat 0 0;
 }
 
 div#socialmedia ul li.twitter a.twitter,
@@ -188,7 +188,7 @@ div#video p.row{
 	padding: 5px;
 	z-index: 999999;
 	color: #fff;
-	background: url('images/template/background_video.png') repeat;
+	background: url('../images/template/background_video.png') repeat;
 }
 
 div#video p.row1{
@@ -229,7 +229,7 @@ div#homepage div.element_big_thumb div.item_overlay{
 	width: 600px;
 	height: 588px;
 	z-index: 3;
-	background: url('images/template/background_item_overlay.png');
+	background: url('../images/template/background_item_overlay.png');
 }
 
 div#homepage div.element_thumb {
@@ -249,7 +249,7 @@ div#homepage div.element_thumb div.item_overlay{
 	width: 400px;
 	height: 294px;
 	z-index: 3;
-	background: url('images/template/background_item_overlay.png');
+	background: url('../images/template/background_item_overlay.png');
 }
 
 div#homepage div.element_big_thumb div.item_overlay div.buttons{
@@ -513,25 +513,25 @@ div#footer div.col h4{
 div#footer div.col h4.latesttweets{
 	height: 18px;
 	width: 235px;
-	background: url('images/template/heading/heading_latesttweets.png') 0px 3px no-repeat;
+	background: url('../images/template/heading/heading_latesttweets.png') 0px 3px no-repeat;
 }
 
 div#footer div.col h4.video{
 	height: 18px;
 	width: 235px;
-	background: url('images/template/heading/heading_video.png') 0px 3px no-repeat;
+	background: url('../images/template/heading/heading_video.png') 0px 3px no-repeat;
 }
 
 div#footer div.col h4.aboutus{
 	height: 18px;
 	width: 235px;
-	background: url('images/template/heading/heading_aboutus.png') 0px 3px no-repeat;
+	background: url('../images/template/heading/heading_aboutus.png') 0px 3px no-repeat;
 }
 
 div#footer div.col h4.flickr{
 	height: 18px;
 	width: 235px;
-	background: url('images/template/heading/heading_flickr.png') 0px 3px no-repeat;
+	background: url('../images/template/heading/heading_flickr.png') 0px 3px no-repeat;
 }
 
 div#footer div.col p{
@@ -569,7 +569,7 @@ div#footer div.col div.overlay_flickr{
 	display: none;
 	width: 77px;
 	height: 74px;
-	background: url('images/template/overlay_flickr.png') no-repeat;
+	background: url('../images/template/overlay_flickr.png') no-repeat;
 	z-index: 999999;
 }
 
@@ -665,7 +665,7 @@ div#thumb_showcase div.element_thumb div.item_overlay{
 	width: 250px;
 	height: 196px;
 	z-index: 3;
-	background: url('images/template/background_item_overlay.png');
+	background: url('../images/template/background_item_overlay.png');
 }
 
 div#thumb_showcase div.element_thumb div.item_overlay div.buttons{
@@ -717,7 +717,7 @@ div#content_showcase div.element div.item_overlay{
 	width: 220px;
 	height: 199px;
 	z-index: 3;
-	background: url('images/template/background_item_overlay.png');
+	background: url('../images/template/background_item_overlay.png');
 }
 
 div#content_showcase div.element div.item_overlay div.buttons{
@@ -1246,17 +1246,17 @@ ul.contact li{
 
 ul.contact li.contact1{
 	padding-left: 23px;
-	background: url('images/template/icons/icon_contact1.png') 0px 6px no-repeat;
+	background: url('../images/template/icons/icon_contact1.png') 0px 6px no-repeat;
 }
 
 ul.contact li.contact2{
 	padding-left: 23px;
-	background: url('images/template/icons/icon_contact2.png') 0px 3px no-repeat;
+	background: url('../images/template/icons/icon_contact2.png') 0px 3px no-repeat;
 }
 
 ul.contact li.contact3{
 	padding-left: 23px;
-	background: url('images/template/icons/icon_contact3.png') 0px 5px no-repeat;
+	background: url('../images/template/icons/icon_contact3.png') 0px 5px no-repeat;
 }
 
 
