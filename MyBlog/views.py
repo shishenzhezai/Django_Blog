@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.template import loader
 
-from .models import ForumQuestions
+from .models import ForumQuestions, BlogsPost
 
 
 def detail(request, question_id):
@@ -9,8 +9,12 @@ def detail(request, question_id):
 
 
 def index(request):
-    template=loader.get_template('MyBlog/index.html')
-    return HttpResponse(template.render(),request)
+    template = loader.get_template('MyBlog/index.html')
+    articles = BlogsPost.objects.order_by('timestamp')[:5]
+    context = {
+        'article_list': articles
+    }
+    return HttpResponse(template.render(context, request))
 
 
 def querytion_list(request):

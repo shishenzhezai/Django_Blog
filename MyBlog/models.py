@@ -64,3 +64,17 @@ class ForumReplys(models.Model):
 
     def __str__(self):
         return self.Content
+
+
+class BlogsPost(models.Model):
+    ID = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    title = models.CharField(max_length=150)
+    body = models.TextField()
+    timestamp = models.DateTimeField()
+    tag = models.ForeignKey('MyBlog.BlogTagRelation', on_delete=models.CASCADE, related_name='blog_tag')
+    note = models.CharField(max_length=30,brank)
+
+class BlogTagRelation(models.Model):
+    ID = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
+    BlogID = models.ForeignKey("MyBlog.BlogsPost", on_delete=models.CASCADE, related_name='BlogID')
+    TagID = models.ForeignKey("MyBlog.Tags", on_delete=models.CASCADE, related_name='TagID')
